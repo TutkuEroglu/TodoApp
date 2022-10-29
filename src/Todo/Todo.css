@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+}
+
+.TodoApp {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.TodoForm {
+    border: 2px solid rgb(255, 177, 32);
+    border-radius: 5px;
+    width: 300px;
+    height: 600px;
+    background-color: #2a2c31;
+}
+
+.HeaderSpan {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.Header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px 0;
+    box-sizing: border-box;
+    
+}
+
+.HeaderInput {
+    background-color: #2a2c31;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 25px;
+    padding: 0 10px;
+    color: white;
+}
+
+.HeaderInput::placeholder {
+    color: white;
+    font-size: 16px;
+}
+
+.HeaderInput:focus {
+    border: 1px solid rgb(255, 177, 32);
+    outline: none;
+}
+
+.HeaderButton {
+    margin-left: 10px;
+    background-color: rgb(255, 177, 32);
+    border: 1px solid black;
+    color: black;
+    outline: none;
+    padding: 0 10px;
+    box-sizing: border-box;
+    height: 25px;
+    border-radius: 9999px;
+}
+
+.HeaderButton:hover {
+    background-color: rgb(255, 206, 115);
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+.Container {
+    border-top: 2px solid rgb(255, 177, 32);
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+
+.ContainerTodos {
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(255, 177, 32, 0.678);
+    font-size: 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    min-width: 250px;
+    max-width: 300px;
+}
+
+.ButtonGroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Done {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.NotDone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+    box-sizing: border-box;
+    text-decoration:line-through;
+    color: white;
+}
+
+.DoneButton {
+    margin-right: 5px;
+    background-color: rgb(255, 177, 32);
+    border: 1px solid black;
+    color: black;
+    outline: none;
+    padding: 0 10px;
+    box-sizing: border-box;
+    height: 25px;
+    border-radius: 9999px;
+}
+
+.DoneButton:hover {
+    background-color: rgb(255, 206, 115);
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+.DeleteButton {
+    margin-right: 5px;
+    background-color: rgb(255, 177, 32);
+    border: 1px solid black;
+    color: black;
+    outline: none;
+    padding: 0 20px;
+    box-sizing: border-box;
+    height: 25px;
+    border-radius: 9999px;
+
+}
+
+.DeleteButton:hover {
+    background-color: rgb(255, 206, 115);
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+}
