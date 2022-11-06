@@ -71,13 +71,13 @@ body {
     box-sizing: border-box;
     height: 25px;
     border-radius: 9999px;
+    cursor: pointer;
 }
 
 .HeaderButton:hover {
     background-color: rgb(255, 206, 115);
     border: 1px solid black;
     color: black;
-    cursor: pointer;
 }
 
 .Container {
@@ -106,7 +106,7 @@ body {
     justify-content: center;
 }
 
-.Done {
+.NotDone {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -115,7 +115,7 @@ body {
     color: white;
 }
 
-.NotDone {
+.Done {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -135,13 +135,13 @@ body {
     box-sizing: border-box;
     height: 25px;
     border-radius: 9999px;
+    cursor: pointer;
 }
 
 .DoneButton:hover {
     background-color: rgb(255, 206, 115);
     border: 1px solid black;
     color: black;
-    cursor: pointer;
 }
 
 .DeleteButton {
@@ -154,12 +154,11 @@ body {
     box-sizing: border-box;
     height: 25px;
     border-radius: 9999px;
-
+    cursor: pointer;
 }
 
 .DeleteButton:hover {
     background-color: rgb(255, 206, 115);
     border: 1px solid black;
     color: black;
-    cursor: pointer;
 }

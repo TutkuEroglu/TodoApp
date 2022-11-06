@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import "./Todo.css"
 
 const Todo = () => {
-    const [list, setList] = useState([{id:1 ,todo:"Temizlik", isComplete:false}]);
+    const [list, setList] = useState([{id:1 ,todo:"Cleaning", isComplete:false}]);
     const [todo, setTodo] = useState("");
     const [number, setNumber] = useState(2);
 
@@ -49,7 +49,7 @@ const Todo = () => {
         <div className="Container">
             {list.map((val) => (
                 <div className="ContainerTodos" key={val.id}>
-                <div className={val.isComplete ? "NotDone" : "Done"}>
+                <div className={val.isComplete ? "Done" : "NotDone"}>
                     {val?.todo}
                 </div>
                 <div className="ButtonGroup"> 
