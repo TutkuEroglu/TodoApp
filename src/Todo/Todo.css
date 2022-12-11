@@ -84,6 +84,14 @@ body {
     border-top: 2px solid rgb(255, 177, 32);
     padding: 5px 0;
     box-sizing: border-box;
+    max-height: 500px;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.Container::-webkit-scrollbar {
+    display: none;
 }
 
 .ContainerTodos {
@@ -96,8 +104,6 @@ body {
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
-    min-width: 250px;
-    max-width: 300px;
 }
 
 .ButtonGroup {
